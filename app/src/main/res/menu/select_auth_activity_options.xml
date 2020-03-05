@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/refresh_authorizations"
+        android:title="@string/refresh"/>
+
+    <item
+        android:id="@+id/switch_auth_type"
+        android:title="@string/switch_to_facilities"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"/>
+
+</menu>

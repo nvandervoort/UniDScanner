@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">UniD Scanner</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Choose an account or login with</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="refresh">Refresh</string>
+    <string name="created_by">created by\u0020</string>
+    <string name="ends">ends\u0020</string>
+
+    <!-- Placeholders -->
+    <string name="auth_expire_time_placeholder">Expire time</string>
+    <string name="auth_title_placeholder">Authorization Title Here</string>
+    <string name="auth_creator_placeholder">Creator name</string>
+    <string name="auth_description_placeholder">Times/description here</string>
+    <string name="student_id_info_placeholder">Joe Student\n123–4567</string>
+
+    <!-- Strings related to barcode scanner -->
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+
+    <!-- Keys -->
+    <string name="AUTH_DOC_ID">auth_doc_id</string>
+    <string name="flash_toggle">flash toggle</string>
+    <string name="student_id_pic">Student ID Picture</string>
+    <string name="last_scanned_notif_id">last_scanned_notif_channel</string>
+    <string name="show_last_student">Show last student</string>
+    <string name="admin_bearer_token">ADMIN_BEARER_TOKEN</string>
+    <string name="bearer_token_lost">Bearer token lost, please press back and log in again</string>
+    <string name="unid_logo">UniD Logo</string>
+    <string name="logout">Log out</string>
+    <string name="add_new_user">Add account</string>
+    <string name="delete_login">Delete login</string>
+    <string name="clear_all_logins">Clear all logins</string>
+    <string name="switch_to_facilities">Show Facilities</string>
+    <string name="switch_to_events">Show Events</string>
+    <string name="IS_EVENT">is_event</string>
+    <string name="undo_last_scan">Undo last check-in</string>
+    <string name="check_in">CHECK IN?</string>
+
+</resources>

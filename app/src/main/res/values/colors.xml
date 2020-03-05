@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00529b</color>
+    <color name="colorPrimaryDark">#1c335f</color>
+    <color name="colorAccent">#f2ca50</color>
+    <color name="colorWorkdayLogo">#0085ca</color>
+    <!--<color name="colorAddUserBg">#009ff2</color>-->
+    <color name="colorAddUserBg">#008fcf</color>
+</resources>

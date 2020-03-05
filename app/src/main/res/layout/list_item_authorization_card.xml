@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/game_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:padding="6dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="2dp"
+        card_view:contentPadding="3dp"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/auth_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/auth_title_size"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="@string/auth_title_placeholder"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:gravity="center_vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="@dimen/auth_details_size"
+                    android:layout_height="@dimen/auth_details_size"
+                    android:src="@drawable/created_by"
+                    tools:ignore="ContentDescription"
+                    android:layout_marginEnd="4dp"/>
+
+                <TextView
+                    android:id="@+id/auth_creator_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textSize="@dimen/auth_details_size"
+                    android:textColor="@color/colorAccent"
+                    android:text="@string/auth_creator_placeholder"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/times_linear_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/auth_time_icon"
+                    android:layout_width="@dimen/auth_details_size"
+                    android:layout_height="@dimen/auth_details_size"
+                    android:src="@drawable/time_icon"
+                    tools:ignore="ContentDescription"
+                    android:layout_marginEnd="4dp"/>
+
+                <TextView
+                    android:id="@+id/auth_subtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/auth_details_size"
+                    android:text="@string/auth_description_placeholder"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
